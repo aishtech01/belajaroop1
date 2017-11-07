@@ -6,4 +6,24 @@ Class Ampibi extends Reptil{
 	{
 		echo "Jenis Hewan : " . $ampibi;
 	}
+
+	public function setgerak($gerak= "Merangkak")
+	{
+		echo "Bergerak dengan cara : " . $gerak;
+	}
+
+	public function setjenis($jenis= "Herbivora, Karnivora")
+	{
+		echo "Jenis Hewan : " . $jenis;
+	}
+
+	public function sethabitat($habitat= "Darat dan Air")
+	{
+		echo "Hidup di : " . $habitat;
+	}
+
+	public function setproduksi($produksi = "Melahirkan, Bertelur")
+	{
+		echo "Reproduksi dengan cara : " . $produksi;
+	}
 }
