@@ -1,5 +1,5 @@
 <?php
-Class Hewan  {
+Class Binatang  {
 
 	    
    	public function jenis($jenis = "Herbivora")
