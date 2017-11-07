@@ -1,29 +1,34 @@
 <?php
 include 'Ampibi.php';
 
+/**
+Polymorphism dari class Ampibi
+
+**/
+
 Class Kucing extends Ampibi {
-	public function setkucing($nama = "kucing")
+	public function ketkucing($nama = "kucing")
 	{
 		echo "Nama Hewan : " . $nama;
 	}
 
-	public function setkaki($kaki = "4")
+	public function jumlahkaki($kaki = "4")
 	{
 		echo "Jumlah kaki : " . $kaki;
 	}
 
-	public function setmakan($makan = "ikan")
+	public function makan($makan = "ikan")
 	{
 		echo "Makanan : " . $makan;
 	}
 
-	public function setwarna($warna = "hitam, putih, abu")
+	public function warna($warna = "hitam, putih, abu")
 	{
 		echo "Warna Bulu : " . $warna;
 	}
 
-	public function setdeskripsi($deskripsi = "Memiliki mata yg menyala pada malam hari")
+	public function deskripsi($deskripsi = "Memiliki mata yg menyala pada malam hari")
 	{
-		echo "Deskripsi : " . $deskripsi;
+		echo "Deskrips " . $deskripsi;
 	}
 }

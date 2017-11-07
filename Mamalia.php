@@ -1,28 +1,33 @@
 <?php
 include 'Hewan.php';
 
+/**
+Turunan dari class binatang
+
+**/
+
 Class Mamalia extends Binatang{
-	public function setMamalia($mamalia= "Mamalia")
+	public function ketMamalia($mamalia= "Mamalia")
 	{
 		echo "Jenis Hewan : " . $mamalia;
 	}
 
-	public function setgerak($gerak= "Berjalan")
+	public function gerak($gerak= "Berjalan")
 	{
 		echo "Bergerak dengan cara : " . $gerak;
 	}
 
-	public function setjenis($jenis= "Herbivora, Karnivora")
+	public function jenis($jenis= "Herbivora, Karnivora")
 	{
 		echo "Jenis Hewan : " . $jenis;
 	}
 
-	public function sethabitat($habitat= "Darat dan Air")
+	public function habitat($habitat= "Darat dan Air")
 	{
 		echo "Hidup di : " . $habitat;
 	}
 
-	public function setproduksi($produksi = "Melahirkan")
+	public function produksi($produksi = "Melahirkan")
 	{
 		echo "Reproduksi dengan cara : " . $produksi;
 	}

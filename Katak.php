@@ -1,28 +1,33 @@
 <?php
 include 'Kucing.php';
 
+/**
+Polymorphism dari class Kucing
+
+**/
+
 Class Katak extends Kucing {
-	public function setkatak($nama="katak")
+	public function ketkatak($nama="katak")
 	{
 		echo "Nama Hewan : " . $nama;
 	}
 
-	public function setkaki($kaki = "4")
+	public function jumlahkaki($kaki = "4")
 	{
 		echo "Jumlah kaki : " . $kaki;
 	}
 
-	public function setmakan($makan = "lumut")
+	public function makan($makan = "lumut")
 	{
 		echo "Makanan : " . $makan;
 	}
 
-	public function setwarna($warna = "hijau tua")
+	public function warna($warna = "hijau tua")
 	{
 		echo "Warna Bulu : " . $warna;
 	}
 
-	public function setdeskripsi($deskripsi = "biasa berenang di sawah")
+	public function deskripsi($deskripsi = "biasa berenang di sawah")
 	{
 		echo "Deskripsi : " . $deskripsi;
 	}

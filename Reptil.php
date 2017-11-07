@@ -1,28 +1,33 @@
 <?php
 include 'Mamalia.php';
 
+/**
+Polymorphism dari class Mamalia
+
+**/
+
 Class Reptil  extends Mamalia {
-	public function setReptil($reptil= "Reptil")
+	public function ketReptil($reptil= "Reptil")
 	{
 		echo "Jenis Hewan : " . $reptil;
 	}
 
-	public function setgerak($gerak= "Merayap")
+	public function gerak($gerak= "Merayap")
 	{
 		echo "Bergerak dengan cara : " . $gerak;
 	}
 
-	public function setjenis($jenis= "Karnivora")
+	public function jenis($jenis= "Karnivora")
 	{
 		echo "Jenis Hewan : " . $jenis;
 	}
 
-	public function sethabitat($habitat= "Darat dan Air")
+	public function habitat($habitat= "Darat dan Air")
 	{
 		echo "Hidup di : " . $habitat;
 	}
 
-	public function setproduksi($produksi = "Bertelur, Melahirkan")
+	public function produksi($produksi = "Bertelur, Melahirkan")
 	{
 		echo "Reproduksi dengan cara : " . $produksi;
 	}

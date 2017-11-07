@@ -1,28 +1,33 @@
 <?php
 include 'Reptil.php';
 
+/**
+Polymorphism dari class Reptil
+
+**/
+
 Class Ampibi extends Reptil{
-	public function setAmpibi($ampibi= "Ampibi")
+	public function ketAmpibi($ampibi= "Ampibi")
 	{
 		echo "Jenis Hewan : " . $ampibi;
 	}
 
-	public function setgerak($gerak= "Merangkak")
+	public function gerak($gerak= "Merangkak")
 	{
 		echo "Bergerak dengan cara : " . $gerak;
 	}
 
-	public function setjenis($jenis= "Herbivora, Karnivora")
+	public function jenis($jenis= "Herbivora, Karnivora")
 	{
 		echo "Jenis Hewan : " . $jenis;
 	}
 
-	public function sethabitat($habitat= "Darat dan Air")
+	public function habitat($habitat= "Darat dan Air")
 	{
 		echo "Hidup di : " . $habitat;
 	}
 
-	public function setproduksi($produksi = "Melahirkan, Bertelur")
+	public function produksi($produksi = "Melahirkan, Bertelur")
 	{
 		echo "Reproduksi dengan cara : " . $produksi;
 	}
